@@ -1,0 +1,134 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+#top-menu-nav {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+}
+
+nav > ul > li {
+    margin: 10px;
+    vertical-align: auto;
+}  
+
+#research-block {
+    margin: auto;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: gray;
+}
+
+#left-footer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#left-footer > ul > li {
+    margin: auto;
+    width: 40px;
+    list-style-type: none;
+}
+
+#left-footer > ul {
+    display: flex;
+}
+
+#plateforme-blanc {
+    align-content: center;
+    margin: auto;
+}
+
+#rejoignez-nos-equipes {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+#telechargez-la-brochure{
+    width: 200px;
+    margin:  5px auto;
+    text-align: center;
+    background-color: orangered;
+}
+.icon {
+    max-width: 40px;
+}
+
+#right-footer {
+    display: flex;
+    margin: 5px;
+    color: white;
+}
+
+.right-footer-column {
+    margin:  0px 10px;
+}
+
+.right-footer-column > img {
+    width: 75%;
+    margin: 50px auto;
+}
+
+#contact-footer {
+    font-size:xx-large;
+    border: solid;
+    width: fit-content;
+    border-color: white;
+    border-width: 2px;
+}
+
+#first-bloc {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    background-color: rgb(100, 100, 238);
+    color: white;
+}
+
+#first-bloc > img{
+    width: 50%;
+}
+
+#first-bloc-left-up {
+    margin: 100px;
+    text-align: left;
+}
+
+#first-bloc-left-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rose {
+    justify-self: center;
+    background-color: rgb(226, 75, 101);
+    width: fit-content;
+}
+
+#conditions {
+    font-size: x-small;
+    text-align: center;
+}
